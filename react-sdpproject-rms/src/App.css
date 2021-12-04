@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.LOGIN,
+.SIGN-UP,
+.MYACCOUNT,
+.HOME
+.BUYER
+.SELLER
+.RENT
+.HOMELOANS
+.FINDAREALTOR 
+{
+  display: flex;
+  height: 70vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.LOGIN {
+  background-image: url('C:\Users\SUPRIYAADAPALA\react-sdpproject-rms\src\images\coolestateslogo.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: rgb(241, 14, 14);
+  font-size: 100px;
+}
+
+.SIGN-UP{
+  background-image: url('C:\Users\SUPRIYAADAPALA\react-sdpproject-rms\src\images\1.jpg');
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+.HOME {
+  background-image: url('C:\Users\SUPRIYAADAPALA\react-sdpproject-rms\src\images\3.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: rgba(252, 105, 252, 0.479);
+  font-size: 100px;
+}
+
+.BUYER {
+  background-image: url('C:\Users\SUPRIYAADAPALA\react-sdpproject-rms\src\images\5.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: rgb(247, 121, 247);
+  font-size: 100px;
+}
+.SELLER {
+  background-image: url('C:\Users\SUPRIYAADAPALA\react-sdpproject-rms\src\images\13.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+.RENT {
+  background-image: url('C:\Users\SUPRIYAADAPALA\react-sdpproject-rms\src\images\10.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+.HOMELOANS {
+  background-image: url('C:\Users\SUPRIYAADAPALA\react-sdpproject-rms\src\images\14.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
